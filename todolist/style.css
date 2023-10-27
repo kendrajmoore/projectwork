@@ -32,6 +32,7 @@ li {
     padding: 15px;
 }
 
+
 .st3 {
     fill: #FEDE7F;
     animation: fillColorChange 5s infinite alternate;
@@ -52,7 +53,35 @@ path.st3 {
     padding-left: -100px;
 }
 
+button {
+    color: white;
+    background-color: #A86263;
+    box-shadow: 3px 3px 5px 0px rgba(0,0,0,0.3);
+    margin: 10px;
+    border-radius: none;
+}
+
+button:hover {
+    transform: scale(1.2);
+}
 
 
+.task input[type="checkbox"]:checked ~ label {
+    text-decoration: line-through;
+}
+
+.task label {
+    display: inline;
+}
+
+input {
+    box-shadow: 3px 3px 5px 0px rgba(0,0,0,0.3);
+    border:  none;
+    outline: none;
+}
+
+input:hover {
+    background-color: #e9e9e9;  
+}
 
 

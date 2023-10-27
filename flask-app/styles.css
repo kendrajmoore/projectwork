@@ -1,0 +1,10 @@
+#podDiv {
+    display: flex;
+    flex-wrap: wrap; 
+
+}
+
+.row-container {
+    flex-basis: calc(33.33% - 10px); /* Set width of each item (3 items per row with 10px spacing) */
+    margin-bottom: 10px; /* Add margin between rows */
+}
