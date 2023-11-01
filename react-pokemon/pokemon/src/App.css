@@ -1,0 +1,51 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+
+body {
+  background-image:url("../src/assets/4883373.jpg");
+  background-repeat: no-repeat;
+}
+
+/* Add these styles to your App.css file or a separate CSS file */
+
+.card-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+h1 {
+  color: white;
+}
+
+.card {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  text-align: center;
+  width: 200px; /* Adjust the width as needed */
+}
+
+.card img {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 10px;
+}
+
+.card h2 {
+  font-size: 18px;
+  margin: 0;
+}
+
+.card p {
+  font-size: 14px;
+  margin: 5px 0;
+}
